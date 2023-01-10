@@ -63,3 +63,7 @@ Record the results of different models and parameters used:
 | Logistic Regression 	| × 	| GD: 0.7791 (runtime: 2m6s)<br>SGD: 0.7850 (runtime: 59.7s) 	| × 	| × 	| × 	| × 	| × 	|
 
 According to the experiments, when we add both polynomials (degree=11) and interactions, we got the best validation set accuracy 0.8235, which has 0.827 accuracy on testing set when evaluated on AIcrowd platform.  
+
+## Comments from TAs
+1. need more clarification whether LR decay has been used; experiments results not complete (all combinations)
+2. code reproducibility: using normal equations can result in different weights on different computers, can be due to randomness.

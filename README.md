@@ -65,5 +65,6 @@ Record the results of different models and parameters used:
 According to the experiments, when we add both polynomials (degree=11) and interactions, we got the best validation set accuracy 0.8235, which has 0.827 accuracy on testing set when evaluated on AIcrowd platform.  
 
 ## Comments from TAs
-1. need more clarification whether LR decay has been used; experiments results not complete (all combinations)
+1. need more clarification whether LR decay has been used; experiments results not complete (all combinations); more clarification about interactions
+2. should be more background, and term explanation: like writing for beginners
 2. code reproducibility: using normal equations can result in different weights on different computers, can be due to randomness.
